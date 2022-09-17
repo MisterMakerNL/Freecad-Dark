@@ -863,8 +863,8 @@ Resetting everything helps to unify styles across different operating systems
     background-color: transparent #19232D;
     subcontrol-origin: border;
     subcontrol-position: bottom right;
-    border-left: 1px solid #455364;
-    border-top: 1px solid #455364;
+    border-left: 1px solid #696969;
+    border-top: 1px solid #696969;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin: 1px;
@@ -925,7 +925,7 @@ Resetting everything helps to unify styles across different operating systems
   --------------------------------------------------------------------------- */
   QTextBrowser {
     background-color: #51ff00;
-    border: 1px solid #455364;
+    border: 1px solid #f30000;
     color: White;
     border-radius: 4px;
   }
@@ -953,13 +953,13 @@ Resetting everything helps to unify styles across different operating systems
   
   QGraphicsView:disabled {
     background-color: black;
-    border: 1px solid #455364;
+    border: 0px solid #ff00f7;
     color: #9DA9B5;
-    border-radius: 4px;
+    border-radius: 0px;
   }
   
   QGraphicsView:hover, QGraphicsView:!hover, QGraphicsView:selected, QGraphicsView:pressed {
-    border: 1px solid #455364;
+    border: 0px solid #ff00f7;
   }
   
   /* QCalendarWidget --------------------------------------------------------
@@ -1386,7 +1386,7 @@ Resetting everything helps to unify styles across different operating systems
   
   QSlider::sub-page:horizontal {
     background: #557bb6;
-    border: 1px solid #455364;
+    border: 1px solid #0073ff;
     height: 4px;
     margin: 0px;
     border-radius: 4px;
@@ -1486,7 +1486,7 @@ Resetting everything helps to unify styles across different operating systems
   }
   
   QTabWidget::pane {
-    border: 1px solid #455364;
+    border: 0px solid #8c00ff;
     border-radius: 4px;
     margin: 0px;
     /* Fixes double border inside pane with pyqt5 */
@@ -2072,7 +2072,7 @@ QTreeView::branch:open:has-children:!has-siblings  {
   
   QToolBox::tab {
     background-color: #19232D;
-    border: 1px solid #455364;
+    border: 1px solid #04ff00;
     color: White;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
