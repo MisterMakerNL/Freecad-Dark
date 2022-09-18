@@ -155,14 +155,14 @@ Resetting everything helps to unify styles across different operating systems
   }
   
   QCheckBox QWidget:disabled {
-    background-color: #696969;
+    background-color: #696968;
     color: #9DA9B5;
   }
   
   QCheckBox::indicator {
     color: white;
     background-color: #3c3c3c;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #696968;
     width: 12px;
     height: 12px;
     border-radius:1px;
@@ -193,8 +193,8 @@ Resetting everything helps to unify styles across different operating systems
   }
   
   QCheckBox::indicator:indeterminate {
-    background-color: #8e8e8e;
-    border: 1px solid #8e8e8e;
+    background-color: #696968;
+    border: 1px solid #696968;
     image: url(qss:images_dark-light/checkbox_indeterminate_light.svg);
   }
   
@@ -214,7 +214,7 @@ Resetting everything helps to unify styles across different operating systems
   --------------------------------------------------------------------------- */
   QGroupBox {
     font-weight: bold;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #696968;
     border-radius: 4px;
     padding: 2px;
     margin-top: 6px;
@@ -233,15 +233,15 @@ Resetting everything helps to unify styles across different operating systems
   QGroupBox::indicator {
     color: white;
     background-color: #3c3c3c;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #696968;
     width: 12px;
     height: 12px;
     border-radius:1px;
   }
   
   QGroupBox::indicator:unchecked {
-    background-color: #8e8e8e;
-    border: 1px solid #8e8e8e;
+    background-color: #696968;
+    border: 1px solid #696968;
     image: url(qss:images_dark-light/checkbox_indeterminate_light.svg);
   }
   
@@ -251,7 +251,7 @@ Resetting everything helps to unify styles across different operating systems
   
   QGroupBox::indicator:unchecked:disabled {
     background-color: black;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #696968;
   }
   
   QGroupBox::indicator:checked {
@@ -391,17 +391,19 @@ Resetting everything helps to unify styles across different operating systems
   
   --------------------------------------------------------------------------- */
   QMenu {
-    border: 0px solid #696969;
+    border-bottom: 2px rgba(0,0,0,140);
+    border-right: 2px rgba(0,0,0,140);
     color: White;
     margin: 0px;
-    background-color: rgba(0,0,0,0);
+    background-color: transparent;
     selection-background-color: #557bb6;
   }
   
   QMenu::separator {
-    height: 2px;
-    background-color: rgba(255,255,255,100);
-    margin: 1px 50px;
+    height: 1px; 
+    background-color: #3c3c3c;
+    margin-left: 30%;
+    margin-right: 30%;
 }
   
   QMenu::item {
@@ -582,7 +584,7 @@ Resetting everything helps to unify styles across different operating systems
   }
   
   QScrollBar::handle:horizontal {
-    background-color: #8e8e8e;
+    background-color: #696968;
     border: 1px solid #2b2b2b;
     border-radius: 4px;
     min-width: 8px;
@@ -590,7 +592,7 @@ Resetting everything helps to unify styles across different operating systems
   
   QScrollBar::handle:horizontal:hover {
     background-color: #557bb6;
-    border: #8e8e8e;
+    border: #696968;
     border-radius: 4px;
     min-width: 8px;
   }
@@ -600,7 +602,7 @@ Resetting everything helps to unify styles across different operating systems
   }
   
   QScrollBar::handle:vertical {
-    background-color: #8e8e8e;
+    background-color: #696968;
     border: 1px solid #2b2b2b;
     min-height: 8px;
     border-radius: 4px;
@@ -608,7 +610,7 @@ Resetting everything helps to unify styles across different operating systems
   
   QScrollBar::handle:vertical:hover {
     background-color: #557bb6;
-    border: #8e8e8e;
+    border: #696968;
     border-radius: 4px;
     min-height: 8px;
   }
@@ -731,7 +733,7 @@ Resetting everything helps to unify styles across different operating systems
     background-color: #42004b;
     color: White;
     border-radius: 4px;
-    border: 0px solid #8e8e8e;
+    border: 0px solid #696968;
   }
   
   QPlainTextEdit:focus {
@@ -800,20 +802,20 @@ Resetting everything helps to unify styles across different operating systems
   QToolBar::separator:horizontal {
     width: 2px;
     margin: 4px 4px;
-    background-color: rgba(255,255,255,100);
+    background-color: transparent;
   }
   
   QToolBar::separator:vertical {
     height: 2px;
     margin: 4px 4px;
-    background-color: rgba(255,255,255,100);
+    background-color: transparent;
   }
   
 /*The "show more" button  (it can also be stylable with "QToolBarExtension"  icon is not working*/
 QToolButton#qt_toolbar_ext_button {
   margin: 0px;
   padding: 0px;
-  background-color: #8e8e8e;
+  background-color: #696968;
   /*background-image: url(qss:images_dark-light/more_light.svg);*/
   background-repeat: none;
   background-position: center center;
@@ -1016,7 +1018,7 @@ QToolButton#qt_toolbar_ext_button:on {
   QProgressBar:disabled {
     background-color: #2b2b2b;
     border: 1px solid #696969;
-    color: #8e8e8e;
+    color: #696968;
     border-radius: 4px;
     text-align: center;
   }
@@ -1029,7 +1031,7 @@ QToolButton#qt_toolbar_ext_button:on {
   
   QProgressBar::chunk:disabled {
     background-color: #3c3c3c;
-    color: #8e8e8e;
+    color: #696968;
     border-radius: 4px;
   }
   
@@ -1249,7 +1251,7 @@ QToolButton#qt_toolbar_ext_button:on {
   --------------------------------------------------------------------------- */
   QCommandLinkButton {
     background-color: transparent;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #696968;
     color: White;
     border-radius: 4px;
     padding: 0px;
@@ -1270,7 +1272,7 @@ QToolButton#qt_toolbar_ext_button:on {
   
   --------------------------------------------------------------------------- */
   QComboBox {
-    border: 1px solid #8e8e8e;
+    border: 1px solid #696968;
     background: black;
     border-radius: 2px;
     selection-background-color: #557bb6;
@@ -1289,7 +1291,7 @@ QToolButton#qt_toolbar_ext_button:on {
     background: white;
   }
   QComboBox QAbstractItemView {
-    border: 0px solid #8e8e8e;
+    border: 0px solid #696968;
     border-radius: 0;
     background-color: black;
     selection-background-color: #557bb6;
@@ -1337,7 +1339,7 @@ QToolButton#qt_toolbar_ext_button:on {
   }
   
   QComboBox::indicator:alternate {
-    background: #8e8e8e;
+    background: #696968;
   }
   
   QComboBox::item {
@@ -1540,7 +1542,7 @@ QSint--ActionGroup QFrame[class="content"] QTableView {
   }
   
   QSlider::add-page:vertical :disabled {
-    background: #8e8e8e;
+    background: #696968;
   }
   
   QSlider::sub-page:horizontal {
@@ -1762,7 +1764,7 @@ QSint--ActionGroup QFrame[class="content"] QTableView {
   }
   
   QTabBar::tab:top, QDockWidget QTabBar::tab:top {
-    background-color: #696969;
+    background-color: #3c3c3c;
     margin-left: 2px;
     padding-left: 4px;
     padding-right: 4px;
@@ -1775,7 +1777,7 @@ QSint--ActionGroup QFrame[class="content"] QTableView {
   }
   
   QTabBar::tab:top:selected, QDockWidget QTabBar::tab:top:selected {
-    background-color: #54687A;
+    background-color: #557bb6;
     border-bottom: 3px solid #557bb6;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -2289,7 +2291,7 @@ QSint--ActionGroup QFrame[class="content"] QTableView {
   
   .QFrame[frameShape="0"] {
     border-radius: 4px;
-    border: 1px transparent #8e8e8e;
+    border: 1px transparent #696968;
   }
   
   .QFrame[frameShape="4"] {
@@ -2317,7 +2319,7 @@ QSint--ActionGroup QFrame[class="content"] QTableView {
   }
   
   QSplitter::handle {
-    background-color: #8e8e8e;
+    background-color: #696968;
     border: 0px solid #2b2b2b;
     spacing: 0px;
     padding: 1px;
