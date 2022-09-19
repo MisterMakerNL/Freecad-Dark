@@ -1472,19 +1472,19 @@ QSint--ActionGroup QFrame[class="content"] > QWidget {
 
 /* Fixs for tabs inside Task Panel */
 QSint--ActionGroup QFrame[class="content"] QTabBar::tab:top:selected {
-  border-bottom-color: Blue; /* same as Task Panel background color */
+  border-bottom-color: #557bb6; /* same as Task Panel background color */
 }
 
 QSint--ActionGroup QFrame[class="content"] QTabBar::tab:bottom:selected {
-  border-top-color: #2b2b2b; /* same as Task Panel background color */
+  border-top-color: #557bb6; /* same as Task Panel background color */
 }
 
 QSint--ActionGroup QFrame[class="content"] QTabBar::tab:right:selected {
-  border-right-color: Green; /* same as Task Panel background color */
+  border-right-color: #557bb6; /* same as Task Panel background color */
 }
 
 QSint--ActionGroup QFrame[class="content"] QTabBar::tab:left:selected {
-  border-left-color: Red; /* same as Task Panel background color */
+  border-left-color: #557bb6; /* same as Task Panel background color */
 }
 
 /* Fix for buttons with icons that showed cropped (still not happy with result) */
@@ -1498,7 +1498,7 @@ QSint--ActionGroup QFrame[class="content"] QTreeView,
 QSint--ActionGroup QFrame[class="content"] QListView,
 QSint--ActionGroup QFrame[class="content"] QTableView {
   color: white;
-  background-color: #8c00ff;
+  background-color: black;
 }
 
 
